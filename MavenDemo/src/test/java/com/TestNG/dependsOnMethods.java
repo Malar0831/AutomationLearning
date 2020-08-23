@@ -17,7 +17,7 @@ public class dependsOnMethods {
 			System.out.println("Test Case search");
 			Assert.assertEquals("abc", "xyz");
 		}
-		@Test(dependsOnMethods="search",alwaysRun=False)
+		@Test(dependsOnMethods="search",alwaysRun=True)
 		public void logout()
 		{
 			System.out.println("Test Case logout");

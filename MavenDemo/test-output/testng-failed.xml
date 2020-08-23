@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.dependsOnMethods">
+      <class name="com.TestNG.flipKart">
         <methods>
+          <include name="LaunchApp"/>
           <include name="search"/>
-          <include name="logout"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- com.TestNG.dependsOnMethods -->
+      </class> <!-- com.TestNG.flipKart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
